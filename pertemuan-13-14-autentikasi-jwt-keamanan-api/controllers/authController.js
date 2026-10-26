@@ -6,6 +6,16 @@ const jwt = require("jsonwebtoken");
 const User = require("../models/userModel");
 
 exports.register = async (req, res) => {
+  const { username, password } = req.body;
+  const hashed = await bcrypt.hash(password, 10);
+  const user = await User.create({ username, password: hashed });
+  res.status(201).json({ 
+    message:"Registrasi berhasil dibuat",
+    user: {
+      id: user._id, 
+      username: user.username
+    },
+  });
   // TODO: ambil username & password dari req.body
   // TODO: hash password dengan bcrypt.hash(password, 10)
   // TODO: simpan user baru dengan User.create({ username, password: hashed })
@@ -14,6 +24,27 @@ exports.register = async (req, res) => {
 };
 
 exports.login = async (req, res) => {
+  const { username, password } = req.body;
+  const user = await User.findOne({username});
+
+  if(!user){
+    throw {status: 404, message: "Username Anda Salah"}
+  }
+
+  const isPass = await bcrypt.compare(password, user.password);
+
+  if(!isPass){
+    throw {status:401, message:"Password Anda Salah"}
+  }
+
+  const token = jwt.sign({
+    id: user._id,
+    username: user.username,
+  },
+  process.env.JWT_SECRET,
+  {expiresIn: '24h'}
+)
+res.json({token});  
   // TODO: ambil username & password dari req.body
   // TODO: cari user dengan User.findOne({ username })
   //   jika tidak ada -> throw { status: 401, message: 'Username/password salah' }
