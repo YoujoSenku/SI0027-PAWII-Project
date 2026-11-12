@@ -2,6 +2,7 @@
 // TODO 1: lengkapi komponen agar menerima props { nama, nim } dan menampilkannya.
 
 function MahasiswaCard({ nama, nim }) {
+  console.log(nama);
   return (
     <div className="card">
       {/* TODO: tampilkan nama di dalam <h3> */}

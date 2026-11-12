@@ -9,11 +9,7 @@ function MahasiswaList({ mahasiswa }/* TODO: destructure { mahasiswa } dari prop
   if (mahasiswa.length === 0) {
     return <p className="empty">Tidak ada mahasiswa yang cocok</p>
   }
-
-  // const [mahasiswa] = useState([
-  //   { id: 1, nama: 'Andi', nim: '2024001' },
-  //   { id: 2, nama: 'Budi', nim: '2024002' },
-  // ]);
+  console.log(mahasiswa)
 
   return (
     <div className="mahasiswa-list">
