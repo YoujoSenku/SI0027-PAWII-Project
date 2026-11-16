@@ -36,7 +36,7 @@ Topik SPA (Pertemuan 17-28) disediakan dalam dua varian stack, masing-masing di 
 | 11, 12 | RESTful API CRUD untuk Data NoSQL | [`pertemuan-11-12-restful-api-crud-nosql`](pertemuan-11-12-restful-api-crud-nosql) | Selesai |
 | 13, 14 | Autentikasi Stateless dengan JWT & Keamanan API | [`pertemuan-13-14-autentikasi-jwt-keamanan-api`](pertemuan-13-14-autentikasi-jwt-keamanan-api) | Selesai |
 | 15, 16 | Ujian Tengah Semester (UTS) | - | - |
-| 17, 18 | Arsitektur Komponen SPA Framework-Agnostik (React/MERN atau Angular Standalone) | [`pertemuan-17-18-arsitektur-komponen-spa`](pertemuan-17-18-arsitektur-komponen-spa) |  |
+| 17, 18 | Arsitektur Komponen SPA Framework-Agnostik (React/MERN atau Angular Standalone) | [`pertemuan-17-18-arsitektur-komponen-spa`](pertemuan-17-18-arsitektur-komponen-spa) | Selesai |
 | 19, 20 | Build Tools/CLI Modern untuk Proyek SPA | [`pertemuan-19-20-build-tools-cli-spa`](pertemuan-19-20-build-tools-cli-spa) |  |
 | 21, 22 | Form dan Validasi Sisi Klien pada SPA | [`pertemuan-21-22-form-validasi-spa`](pertemuan-21-22-form-validasi-spa) |  |
 | 23, 24, 25 | Konsumsi API Asinkron (Axios/Fetch) & Autentikasi JWT dari SPA | [`pertemuan-23-24-25-konsumsi-api-asinkron-jwt-spa`](pertemuan-23-24-25-konsumsi-api-asinkron-jwt-spa) |  |
