@@ -12,7 +12,9 @@ import MahasiswaList from "./components/MahasiswaList";
 import Tentang from "./components/Tentang";
 
 // TODO: baca environment variable VITE_API_BASE_URL lewat import.meta.env.VITE_API_BASE_URL
-// const API_BASE_URL = ...
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const DEVELOPER_NAME = import.meta.env.VITE_DEVELOPER_NAME;
+const DEVELOPER_EMAIL = import.meta.env.VITE_DEVELOPER_EMAIL;
 
 const DATA_MAHASISWA = [
   { id: 1, nama: "Andi", nim: "2024001" },
@@ -31,7 +33,7 @@ function DaftarMahasiswaPage() {
     <>
       <SearchBar keyword={keyword} onSearch={setKeyword} />
       <MahasiswaList mahasiswa={mahasiswaTersaring} />
-      {/* TODO: tampilkan <footer className="env-footer">Terhubung ke: {API_BASE_URL}</footer> */}
+      <footer className="env-footer">Terhubung ke: {API_BASE_URL} - Dev : {DEVELOPER_NAME} ({DEVELOPER_EMAIL})</footer>
     </>
   );
 }
