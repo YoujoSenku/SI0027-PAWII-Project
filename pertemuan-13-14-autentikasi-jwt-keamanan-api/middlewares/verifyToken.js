@@ -9,7 +9,7 @@ function verifyToken(req, res, next) {
     throw{status:401, message:"Token Tidak Ditemukan"}
   }
 
-  const token = header.split[1];
+  const token = header.split(' ')[1];
   try{
     req.user = jwt.verify(token, process.env.JWT_SECRET);
     next();
