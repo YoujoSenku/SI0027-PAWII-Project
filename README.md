@@ -37,9 +37,9 @@ Topik SPA (Pertemuan 17-28) disediakan dalam dua varian stack, masing-masing di 
 | 13, 14 | Autentikasi Stateless dengan JWT & Keamanan API | [`pertemuan-13-14-autentikasi-jwt-keamanan-api`](pertemuan-13-14-autentikasi-jwt-keamanan-api) | Selesai |
 | 15, 16 | Ujian Tengah Semester (UTS) | - | - |
 | 17, 18 | Arsitektur Komponen SPA Framework-Agnostik (React/MERN atau Angular Standalone) | [`pertemuan-17-18-arsitektur-komponen-spa`](pertemuan-17-18-arsitektur-komponen-spa) | Selesai |
-| 19, 20 | Build Tools/CLI Modern untuk Proyek SPA | [`pertemuan-19-20-build-tools-cli-spa`](pertemuan-19-20-build-tools-cli-spa) |  |
-| 21, 22 | Form dan Validasi Sisi Klien pada SPA | [`pertemuan-21-22-form-validasi-spa`](pertemuan-21-22-form-validasi-spa) |  |
-| 23, 24, 25 | Konsumsi API Asinkron (Axios/Fetch) & Autentikasi JWT dari SPA | [`pertemuan-23-24-25-konsumsi-api-asinkron-jwt-spa`](pertemuan-23-24-25-konsumsi-api-asinkron-jwt-spa) |  |
+| 19, 20 | Build Tools/CLI Modern untuk Proyek SPA | [`pertemuan-19-20-build-tools-cli-spa`](pertemuan-19-20-build-tools-cli-spa) | Selesai |
+| 21, 22 | Form dan Validasi Sisi Klien pada SPA | [`pertemuan-21-22-form-validasi-spa`](pertemuan-21-22-form-validasi-spa) | Selesai |
+| 23, 24, 25 | Konsumsi API Asinkron (Axios/Fetch) & Autentikasi JWT dari SPA | [`pertemuan-23-24-25-konsumsi-api-asinkron-jwt-spa`](pertemuan-23-24-25-konsumsi-api-asinkron-jwt-spa) | Selesai |
 | 26, 27 | Deployment Modern: Backend (Render/Railway) & Frontend (Vercel/Netlify) | [`pertemuan-26-27-deployment-backend-frontend`](pertemuan-26-27-deployment-backend-frontend) |  |
 | 28 | Integrasi Full Stack, Debugging Arsitektur Decoupled & Review Proyek | [`pertemuan-28-integrasi-fullstack-debugging-review`](pertemuan-28-integrasi-fullstack-debugging-review) |  |
 | 29, 30 | Konsultasi dan Presentasi Proyek Akhir | - | - |
